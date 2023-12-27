@@ -1,1 +1,1 @@
-# sign-up-form
+A simple sign up form with an image backdrop, some code to make sure the passwords match, and no backend as I don't know how to do that yet.
