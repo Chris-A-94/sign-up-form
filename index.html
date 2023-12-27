@@ -10,9 +10,40 @@
 <body>
     <div id="leftSide"></div>
     <div id="rightSide">
-        <div id="upperBox"></div>
-        <div id="middleBox"></div>
-        <div id="lowerBox"></div>
+        <div class="backBoxes">
+            <p>This is not a real Sign Up form. It doesn't send anything anywhere!</p>
+            <p>Please fill the form so the data goes to the ether!</p>
+        </div> 
+        <div id="importantBox">
+            <h1>Let's do this!</h1>
+            <form action="get">
+                <div class="formBoxes">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="firstName">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="lastName">
+                </div>
+                <div class="formBoxes">
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="mail">
+                    <label for="phoneNumber">Phone Number:</label>
+                    <input type="tel" name="phoneNumber" id="phoneNumber">
+                </div>
+                <div class="formBoxes">
+                    <label for="firstPass">Password:</label>
+                    <input type="password" name="firstPass" id="firstPass">
+                    <label for="secPass">Confirm Password:</label>
+                    <input type="password" name="secPass" id="secPass">
+                </div>              
+                
+                
+
+                <button type="submit" id="butCreat">Create Account</button>
+            </form>
+        </div>
+        <div class="backBoxes">
+            <p>Already have an account? <a href="$">Log in.</a></p>
+        </div>
     </div>
 </body>
 </html>
