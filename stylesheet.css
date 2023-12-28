@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,700;0,900;1,900&family=Skranji&display=swap');
+
 html{
     height: 100%;
     display: flex;
+    padding:0;
 }
 
 body{
@@ -8,26 +11,104 @@ body{
     flex:1;
     align-self: stretch;
     align-items: stretch;
+    padding:0;
+    margin:0;
 }
 
 #leftSide{
-    flex:1;
+    flex:0.35;
+    display: flex;
+    flex-direction: column;
+    position:relative;
 }
 #rightSide{
-    flex:3;
+    flex:0.65;
+    display: flex;
+    flex-direction: column;
+}
+
+.backBoxes{
+    background-color: rgb(236, 234, 234);
+    flex:1;
+    padding-left: 1cm;
 }
 
 #photo{
+    flex:1;
     max-width: 100%;
+    height: 100%;
 }
 
 #logo{
     max-height: 3cm;
     background-color: grey;
     display: flex;
-    opacity: 50%;
+    opacity: 75%;
+    position:absolute;
+    top:5.25cm;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    color:white;
+}
+
+#credits{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-size: 9px;
+    position:absolute;
+    align-self: center;
+    top:97%;
 }
 #logoImg{
     max-height: 100%;
-    max-width: 1cm;
+    max-width: 1.5cm;
+}
+#logoWord{
+    font-family: Skranji;
+}
+
+.generalText{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.formBoxes{
+    display: flex;
+    flex-direction: column;
+}
+
+.label{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    color: gray;
+}
+
+#importantBox{
+    display:flex;
+    flex-direction: column;
+    padding-left: 1cm;
+}
+
+#targetForm{    
+    margin-right: auto;
+}
+#header{
+    margin:0;
+}
+
+#upper{
+    padding-top: 2.5cm;
+}
+
+#low{
+    padding-top:1cm;
+    font-size: 10px;    
+}
+#login
+{
+    text-decoration-line: none;
 }

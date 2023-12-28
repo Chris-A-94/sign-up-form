@@ -11,35 +11,51 @@
     <div id="leftSide">
         <div id="logo">
             <img src="./odin-lined.png" alt="Odin logo" id="logoImg">
-            <h1>Odin</h1>
+            <h1 id="logoWord">ODIN</h1>
         </div>
         <img src="./imagen.jpg" alt="tall christmas tree" id="photo">
+        <div id="credits">Photo by Alsu Vershinina on Unsplash</div>
     </div>
     <div id="rightSide">
-        <div class="backBoxes">
-            <p>This is not a real Sign Up form. It doesn't send anything anywhere!</p>
-            <p>Please fill the form so the data goes to the ether!</p>
+        <div class="backBoxes" id="upper">
+            <p class="generalText">This is not a real Sign Up form. It doesn't send anything anywhere!</p>
+            <p class="generalText">Please fill the form so the data goes to the ether!</p>
         </div> 
         <div id="importantBox">
-            <h1>Let's do this!</h1>
-            <form action="get">
+            <h3 id="header">Let's do this!</h3>
+            <form action="get" id="targetForm">
                 <div class="formBoxes">
-                    <label for="firstName">First Name:</label>
-                    <input type="text" id="firstName" name="firstName">
-                    <label for="lastName">Last Name:</label>
-                    <input type="text" id="lastName" name="lastName">
+                    <div class="label">
+                        <label for="firstName">First Name</label>
+                        <label for="lastName">Last Name</label>
+                    </div>
+
+                    <div class="inputs">
+                        <input type="text" id="firstName" name="firstName">
+                        <input type="text" id="lastName" name="lastName">
+                    </div>
                 </div>
                 <div class="formBoxes">
-                    <label for="mail">E-mail:</label>
-                    <input type="email" id="mail" name="mail">
-                    <label for="phoneNumber">Phone Number:</label>
-                    <input type="tel" name="phoneNumber" id="phoneNumber">
+                    <div class="label">
+                        <label for="mail">E-mail</label>
+                        <label for="phoneNumber">Phone Number</label>
+                    </div>
+
+                    <div class="inputs">
+                        <input type="email" id="mail" name="mail">
+                        <input type="tel" name="phoneNumber" id="phoneNumber">
+                    </div>
                 </div>
                 <div class="formBoxes">
-                    <label for="firstPass">Password:</label>
-                    <input type="password" name="firstPass" id="firstPass">
-                    <label for="secPass">Confirm Password:</label>
-                    <input type="password" name="secPass" id="secPass">
+                    <div class="label">
+                        <label for="firstPass">Password</label>
+                        <label for="secPass">Confirm Password</label>
+                    </div>
+
+                    <div class="inputs">
+                        <input type="password" name="firstPass" id="firstPass">
+                        <input type="password" name="secPass" id="secPass">
+                    </div>
                 </div>            
                 
                 
@@ -48,7 +64,7 @@
             </form>
         </div>
         <div class="backBoxes">
-            <p>Already have an account? <a href="$">Log in.</a></p>
+            <p class="generalText" id="low">Already have an account? <a href="$" id="login">Log in.</a></p>
         </div>
     </div>
 </body>
