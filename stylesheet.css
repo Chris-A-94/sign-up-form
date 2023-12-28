@@ -1,3 +1,33 @@
 html{
     height: 100%;
+    display: flex;
+}
+
+body{
+    display: flex;
+    flex:1;
+    align-self: stretch;
+    align-items: stretch;
+}
+
+#leftSide{
+    flex:1;
+}
+#rightSide{
+    flex:3;
+}
+
+#photo{
+    max-width: 100%;
+}
+
+#logo{
+    max-height: 3cm;
+    background-color: grey;
+    display: flex;
+    opacity: 50%;
+}
+#logoImg{
+    max-height: 100%;
+    max-width: 1cm;
 }
