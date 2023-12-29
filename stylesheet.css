@@ -102,23 +102,26 @@ body{
 }
 
 input{
+    
     border-color: #E5E7EB;
     border-radius: 3px;
     border-width: thin;
+    
 }
 
 input:focus{
-    border-color: rgb(178, 227, 246);
-    box-shadow: 1px 1px 1px rgb(178, 227, 246);
+    outline-color:rgb(178, 227, 246);
+    
+    /*box-shadow: 1px 1px 1px rgb(178, 227, 246);*/
 }
 
 #targetForm{    
     margin-right: auto;
-    margin-bottom: 0.5cm;
+    margin-bottom: 0.1cm;
 }
 #header{
     margin-top: 0.3cm;
-    margin-bottom: 0.3cm;
+    margin-bottom: 0cm;
     font-family: 'Times New Roman', Times, serif;
 }
 
